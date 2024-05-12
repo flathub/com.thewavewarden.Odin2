@@ -4,7 +4,7 @@
     <name>Odin2</name>
     <summary>Odin 2 Synthesizer</summary>
     <description>
-      <p>Odin 2: A Synth to Please the Gods</p>
+      <p>Odin 2: A Synth to Please the Gods.</p>
       <p>The sound of this 24-voice polyphonic beast will take you
       from your studio right to Valhalla. Earth shattering basses,
       exquisite leads or mad FX, Odin's got them all! Use the classic
@@ -15,11 +15,13 @@
       discover in Odin 2.</p>
       <p>This is the Standalone version.</p>
     </description>
+    <developer_name>Odin2 Developers</developer_name>
     <project_license>GPL-3.0-or-later</project_license>
     <metadata_license>CC0-1.0</metadata_license>
     <update_contact>hub_AT_figuiere.net</update_contact>
+    <launchable type="desktop-id">com.thewavewarden.Odin2.desktop</launchable>
     <screenshots>
-      <screenshot>
+      <screenshot type="default">
         <image>https://cdn.shopify.com/s/files/1/0641/1304/9835/files/odin2_fading.png</image>
         <caption>The main user interface</caption>
       </screenshot>

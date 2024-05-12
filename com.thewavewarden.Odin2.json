@@ -68,6 +68,7 @@
                     "type": "patch",
                     "paths": [
                         "patches/juce-616-header.patch",
+                        "patches/juce-x11-fix.patch",
                         "patches/odin2-soundbank-creation.patch"
                     ]
                 },
@@ -127,6 +128,7 @@
                     "type": "patch",
                     "paths": [
                         "patches/juce-616-header.patch",
+                        "patches/juce-x11-fix.patch",
                         "patches/odin2-soundbank-creation.patch"
                     ]
                 },

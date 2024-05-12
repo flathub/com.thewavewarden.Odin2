@@ -111,7 +111,7 @@
                 "install -Dm755 Odin2_artefacts/RelWithDebInfo/CLAP/Odin2.clap -t ${PLUGINS_DIR}/clap/",
                 "strip --strip-unneeded ${PLUGINS_DIR}/clap/*.clap",
                 "install -Dm644 -t ${PLUGINS_DIR}/share/metainfo org.freedesktop.LinuxAudio.Plugins.Odin2.metainfo.xml",
-                "appstream-compose --basename=${PLUGINS_ID} --prefix=${PLUGINS_DIR} --origin=flatpak ${PLUGINS_ID}"
+                "appstreamcli compose --components=${PLUGINS_ID} --prefix=/ --origin=${PLUGINS_ID} --result-root=${PLUGINS_DIR} --data-dir=${PLUGINS_DIR}/share/app-info/xmls ${PLUGINS_DIR}"
             ],
             "sources": [
                 {

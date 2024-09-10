@@ -1,7 +1,7 @@
 {
     "id": "com.thewavewarden.Odin2",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "23.08",
+    "runtime-version": "24.08",
     "sdk": "org.freedesktop.Sdk",
     "command": "Odin2",
     "finish-args": [
@@ -27,7 +27,7 @@
     "add-extensions": {
         "org.freedesktop.LinuxAudio.Plugins.Odin2": {
             "directory": "extensions/Plugins/Odin2",
-            "version": "23.08",
+            "version": "24.08",
             "add-ld-path": "lib",
             "bundle": true,
             "subdirectories": true,

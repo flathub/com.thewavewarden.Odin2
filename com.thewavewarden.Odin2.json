@@ -57,8 +57,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/TheWaveWarden/odin2",
-                    "commit": "57272428423eb2655b4d482aeb547bf2fb4d2cbe",
-                    "tag": "v2.3.4",
+                    "commit": "b333508adcec0641b0613870631912989789f5ee",
+                    "tag": "v2.4.0",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
@@ -68,8 +68,7 @@
                     "type": "patch",
                     "paths": [
                         "patches/juce-616-header.patch",
-                        "patches/juce-x11-fix.patch",
-                        "patches/odin2-soundbank-creation.patch"
+                        "patches/juce-x11-fix.patch"
                     ]
                 },
                 {
@@ -117,8 +116,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/TheWaveWarden/odin2",
-                    "commit": "57272428423eb2655b4d482aeb547bf2fb4d2cbe",
-                    "tag": "v2.3.4",
+                    "commit": "b333508adcec0641b0613870631912989789f5ee",
+                    "tag": "v2.4.0",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
@@ -128,8 +127,7 @@
                     "type": "patch",
                     "paths": [
                         "patches/juce-616-header.patch",
-                        "patches/juce-x11-fix.patch",
-                        "patches/odin2-soundbank-creation.patch"
+                        "patches/juce-x11-fix.patch"
                     ]
                 },
                 {
